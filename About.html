@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Gallery</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 columns */
+      gap: 20px; /* Spacing between cards */
+      padding: 20px;
+    }
+    .team-member {
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 15px;
+    }
+    .team-member img {
+      width: 100%;
+      height: 300px; /* Extended height for larger image display */
+      object-fit: cover; /* Ensures the images look neat and consistent */
+      border-bottom: 2px solid #ddd;
+    }
+    .team-member p {
+      margin: 10px 0 5px;
+      font-size: 1em;
+    }
+    .team-member p.email {
+      font-size: 0.85em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+      <h1>Meet Our Team</h1>
+    <p>A team of dedicated professionals ready to serve you</p>
+
+    <div style="text-align: center; margin-top: 50px;">
+      <a href="index.html" class="navigate-button">Go to Home</a>
+    </div>
+
+  </header>
+  <section>
+    <div class="gallery">
+      <div class="team-member">
+        <img src="Images/niga.jpg" alt="Asanda Nzama">
+        <p>Asanda Nzama</p>
+        <p class="email">22218553@dut4life.ac.za</p>
+      </div>
+      <div class="team-member">
+        <img src="Images/Nosi.jpg" alt="Nosipho Zulu">
+        <p>Nosipho Zulu</p>
+        <p class="email">22243198@dut4life.ac.za</p>
+      </div>
+      <div class="team-member">
+        <img src="Images/Duma.jpg" alt="Zethembe Duma">
+        <p>Zethembe Duma</p>
+        <p class="email">22336965@dut4life.ac.za</p>
+      </div>
+      <div class="team-member">
+        <img src="Images/DD.jpg" alt="Mluleki Shange">
+        <p>Mluleki Shange</p>
+        <p class="email">22301587@dut4life.ac.za</p>
+      </div>
+      <div class="team-member">
+        <img src="Images/sbongakonke.jpg" alt="Sibongakonke Mathe">
+        <p>Sibongakonke Mathe</p>
+        <p class="email">22416030@dut4life.ac.za</p>
+      </div>
+      <div class="team-member">
+        <img src="Images/lwandile.jpg" alt="Lwandile Kylie Dlamini">
+        <p>Lwandile Kylie Dlamini</p>
+        <p class="email">22435793@dut4life.ac.za</p>
+      </div>
+      <div class="team-member">
+        <img src="Images/Sduduzo.jpg" alt="Sduduzo Xulu">
+        <p>Sduduzo Xulu</p>
+        <p class="email">21835557@dut4life.ac.za</p>
+      </div>
+      <div class="team-member">
+        <img src="Images/luyanda.jpg" alt="Luyanda Lembede">
+        <p>Luyanda Lembede</p>
+        <p class="email">22380075@dut4life.ac.za</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
